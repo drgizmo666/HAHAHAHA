@@ -1,0 +1,11 @@
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/ibtool/LaunchScreen.nib
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/ibtool/Main.storyboardc/8-view-9.nib
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/ibtool/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/ibtool/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/ibtool/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/actool/partial-info.plist
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/actool/asset-manifest.plist
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/actool/bundle/Assets.car
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhone/Debug/optimized/
