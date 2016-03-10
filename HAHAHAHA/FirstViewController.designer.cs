@@ -26,6 +26,10 @@ namespace HAHAHAHA
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UIPickerView JokePicker { get; set; }
 
+		[Action ("JokeButton_TouchUpInside:")]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		partial void JokeButton_TouchUpInside (UIButton sender);
+
 		void ReleaseDesignerOutlets ()
 		{
 			if (JokeButton != null) {

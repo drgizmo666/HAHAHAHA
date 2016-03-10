@@ -9,3 +9,7 @@
 /Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
 /Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car
 /Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhoneSimulator/Debug/optimized/
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/bin/iPhoneSimulator/Debug/HAHAHAHA.exe.mdb
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/bin/iPhoneSimulator/Debug/HAHAHAHA.exe
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhoneSimulator/Debug/HAHAHAHA.exe
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhoneSimulator/Debug/HAHAHAHA.exe.mdb
