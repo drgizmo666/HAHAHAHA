@@ -5,9 +5,9 @@ using UIKit;
 
 namespace HAHAHAHA
 {
-	partial class SubmitJoke : UIViewController
+	partial class AppInfo : UIViewController
 	{
-		public SubmitJoke (IntPtr handle) : base (handle)
+		public AppInfo (IntPtr handle) : base (handle)
 		{
 		}
 	}

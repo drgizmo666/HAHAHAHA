@@ -99,18 +99,22 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="FirstViewController.cs" />
-    <Compile Include="SecondViewController.cs" />
     <Compile Include="FirstViewController.designer.cs">
       <DependentUpon>FirstViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="SecondViewController.designer.cs">
-      <DependentUpon>SecondViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SubmitJoke.cs" />
-    <Compile Include="SubmitJoke.designer.cs">
-      <DependentUpon>SubmitJoke.cs</DependentUpon>
-    </Compile>
     <Compile Include="JokesClass.cs" />
+    <Compile Include="AppInfo.cs" />
+    <Compile Include="AppInfo.designer.cs">
+      <DependentUpon>AppInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmitView.cs" />
+    <Compile Include="SubmitView.designer.cs">
+      <DependentUpon>SubmitView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutputView.cs" />
+    <Compile Include="OutputView.designer.cs">
+      <DependentUpon>OutputView.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

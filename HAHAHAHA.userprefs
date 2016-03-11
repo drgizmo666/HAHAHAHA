@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="HAHAHAHA/HAHAHAHA.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HAHAHAHA/FirstViewController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="HAHAHAHA/FirstViewController.cs" Line="86" Column="11" />
-      <File FileName="HAHAHAHA/JokesClass.cs" Line="142" Column="21" />
+      <File FileName="HAHAHAHA/FirstViewController.cs" Line="1" Column="1" />
+      <File FileName="HAHAHAHA/JokesClass.cs" Line="1" Column="1" />
+      <File FileName="HAHAHAHA/SubmitView.cs" Line="9" Column="3" />
+      <File FileName="HAHAHAHA/OutputView.cs" Line="20" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

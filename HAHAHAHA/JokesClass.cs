@@ -80,9 +80,17 @@ namespace HAHAHAHA
 
 		public List<string> Work = new List<string>()
 		{
+			"An organization is like a tree full of monkeys, all on different limbs at different levels. The monkeys on top look down and see a tree full of smiling faces. The monkeys on the bottom look up and see nothing but assholes.",
+			"An employee is getting to know her new co-workers when the topic of her last job comes up.\nWhy did you leave that job? asked one co-worker. It was something my boss said, she replied.\nWhat did he say? the co-worker quizzed.\nYou’re fired.",
+			"The owner of a company tells his employees:\nYou worked very hard this year, therefore the company’s profits increased dramatically. As a reward, I ‘m giving everyone a check for $5,000.\nThrilled, the employees gather round and high five one another.\nAnd if you work with the same zeal next year, I’ll sign those checks!",
+			"An old woman walked into a dentist's office, took off all her clothes and spread her legs. The dentist said, I think you have the wrong room. \nYou put in my husband's teeth last week, she replied. Now you have to remove them.",
+			"Lem: I got fired from my job as a bank guard.\nClem: That's awful. What happened?\nLem: Well, a thief came in, and I drew my gun. I told him that if he took one more step, I'd let him have it.\nClem: What did the thief do then?\nLem: He took one more step, so I let him have it. I didn't want that stupid gun anyway."
 		};
 		public List<string> Mama = new List<string>()
 		{
+			"Yo' mama so fat, when she was a baby, she took a bath with a rubber albatross.", "Yo' mama so stupid, she walked into an antique shop and asked, What's new?",
+			"Yo mamma is so white she makes the pilsbeary doe boy look like a Mexican.", "Yo' Mama is so ugly, when she ran away from home, her parents called the dog catcher.",
+			"Yo' Mama is so poor, I saw her kicking a can down the street, and when I asked her what she was doing, she said, Moving."
 		};
 
 		public JokesClass ()
@@ -142,6 +150,16 @@ namespace HAHAHAHA
 		public string TechJoke(int num)
 		{
 			return Tech [num];
+		}
+
+		public string WorkJoke(int num)
+		{
+			return Work [num];
+		}
+
+		public string MamaJoke(int num)
+		{
+			return Mama [num];
 		}
 	}
 }

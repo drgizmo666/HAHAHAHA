@@ -81,6 +81,12 @@ namespace HAHAHAHA
 				case 10:
 				JokeLabel.Text = Jokes.TechJoke(r.Next(5));
 				break;
+				case 11:
+				JokeLabel.Text = Jokes.WorkJoke(r.Next(5));
+				break;
+				case 12:
+				JokeLabel.Text = Jokes.MamaJoke(r.Next(5));
+				break;
 				default:
 				JokeLabel.Text = "Please Pick a Category";
 				break;

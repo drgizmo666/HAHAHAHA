@@ -11,11 +11,19 @@ using UIKit;
 
 namespace HAHAHAHA
 {
-	[Register ("SubmitJoke")]
-	partial class SubmitJoke
+	[Register ("AppInfo")]
+	partial class AppInfo
 	{
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UILabel infoLabel { get; set; }
+
 		void ReleaseDesignerOutlets ()
 		{
+			if (infoLabel != null) {
+				infoLabel.Dispose ();
+				infoLabel = null;
+			}
 		}
 	}
 }
