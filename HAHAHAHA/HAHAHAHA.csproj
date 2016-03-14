@@ -117,4 +117,7 @@
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="Settings.bundle\Root.plist" />
+  </ItemGroup>
 </Project>

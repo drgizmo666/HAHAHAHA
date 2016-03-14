@@ -1,6 +1,8 @@
 ﻿using System;
 
 using UIKit;
+using Foundation;
+using ObjCRuntime;
 
 namespace HAHAHAHA
 {
@@ -10,8 +12,22 @@ namespace HAHAHAHA
 													"Dark Humor", "Fat", "Gross", "Insults", 
 														"Marriage", "Pick-up Lines", "School", 
 															"Technology", "Work", "YO' Mama"};
+
+		NSObject observer = null;
 		public FirstViewController (IntPtr handle) : base (handle)
 		{
+		}
+		public override void ViewWillAppear (bool animated)
+		{
+			base.ViewWillAppear (animated);
+			// Update the values shown in view 1 from the StandardUserDefaults
+			RefreshFields ();
+
+			// Subscribe to the applicationWillEnterForeground notification
+			var app = UIApplication.SharedApplication;
+			// NSNotificationCenter.DefaultCenter.AddObserver (this, UIApplication.WillEnterForegroundNotification, "ApplicationWillEnterForeground", app);
+			// NSNotificationCenter.DefaultCenter.AddObserver (UIApplication.WillEnterForegroundNotification, ApplicationWillEnterForeground);
+			observer = NSNotificationCenter.DefaultCenter.AddObserver (aName: UIApplication.WillEnterForegroundNotification, notify: ApplicationWillEnterForeground, fromObject: app);
 		}
 
 		public override void ViewDidLoad ()
@@ -101,6 +117,30 @@ namespace HAHAHAHA
 			{
 				return FirstViewController.JokeCategories[row];
 			}
+		}
+
+
+		public override void ViewWillDisappear (bool animated)
+		{
+			base.ViewWillDisappear (animated);
+			NSNotificationCenter.DefaultCenter.RemoveObserver (observer);
+		}
+
+		private void RefreshFields()
+		{
+			var defaults = NSUserDefaults.StandardUserDefaults;
+
+			JokeLabel.BackgroundColor = defaults.StringForKey (Constants);
+		}
+
+
+		// We will subscribe to the applicationWillEnterForeground notification
+		// so that this method is called when that notification occurs
+		private void ApplicationWillEnterForeground(NSNotification notification)
+		{
+			var defaults = NSUserDefaults.StandardUserDefaults;
+			defaults.Synchronize();
+			RefreshFields();			
 		}
 	}
 }

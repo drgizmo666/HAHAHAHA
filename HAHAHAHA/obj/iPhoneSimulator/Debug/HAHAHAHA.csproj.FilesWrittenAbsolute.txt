@@ -15,3 +15,5 @@
 /Users/student/GitHub/HAHAHAHA/HAHAHAHA/bin/iPhoneSimulator/Debug/HAHAHAHA.exe
 /Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhoneSimulator/Debug/HAHAHAHA.exe
 /Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhoneSimulator/Debug/HAHAHAHA.exe.mdb
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhoneSimulator/Debug/optimized/HAHAHASettings.bundle/Root.plist
+/Users/student/GitHub/HAHAHAHA/HAHAHAHA/obj/iPhoneSimulator/Debug/optimized/Settings.bundle/Root.plist
