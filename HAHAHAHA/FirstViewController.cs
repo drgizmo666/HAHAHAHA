@@ -2,7 +2,6 @@
 
 using UIKit;
 using Foundation;
-using ObjCRuntime;
 
 namespace HAHAHAHA
 {
@@ -130,7 +129,8 @@ namespace HAHAHAHA
 		{
 			var defaults = NSUserDefaults.StandardUserDefaults;
 
-			JokeLabel.BackgroundColor = defaults.StringForKey (Constants);
+			JokeLabel.Text = defaults.StringForKey (Constants.COLOR_KEY);
+
 		}
 
 
